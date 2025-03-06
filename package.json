@@ -1,0 +1,22 @@
+{
+  "name": "monopoly-foss",
+  "version": "1.0.0",
+  "scripts": {
+	"dev:web": "pnpm --F web dev",
+	"build:web": "pnpm --F web build",
+	"dev:server": "pnpm --F server dev",
+	"build:server": "pnpm --F server build",
+	"start:server": "pnpm --F server start"
+  },
+  "keywords": [
+    
+  ],
+  "author": "Oleg Logvinov (olejka.ru)",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
